@@ -1,0 +1,23 @@
+﻿<h3>GetMessege</h3>
+
+<div class="col-1">
+    <input type="text" @bind="message"/>
+</div>
+
+<div class="col-6 text-center">
+    <button @onclick="AddMessage">submit</button>
+</div>
+
+@code {
+
+    void AddMessage()
+    {
+        SubmitMessage.InvokeAsync(message);
+        message = "";
+    }
+
+    [Parameter]
+    public EventCallback<string> SubmitMessage { get; set; }
+
+    public string message { get; set; }
+}

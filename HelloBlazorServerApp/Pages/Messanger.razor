@@ -1,0 +1,22 @@
+﻿@page "/messanger"
+
+
+<GetMessege SubmitMessage="AddMessange"></GetMessege>
+
+<ShowMessages MessangerModel="MessangerModel"></ShowMessages>
+
+@code {
+    public MessangerViewModel MessangerModel { get; set; }
+
+    public void AddMessange(string message)
+    {
+        MessangerModel.AddMessange(message,DateTime.Now);
+    }
+
+    protected override Task OnInitializedAsync()
+    {
+        MessangerModel = new MessangerViewModel();
+
+        return base.OnInitializedAsync();
+    }
+}

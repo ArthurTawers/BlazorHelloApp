@@ -1,0 +1,66 @@
+﻿@if (!IsTable && Game != null)
+{
+    <div class="row text-md-center" alert alert-info>
+        <p>@Game.Name</p>
+        <p>@Game.Genre</p>
+        <p>@Game.ReleaseDate.ToString("dd.MM.yyyy")</p>
+
+
+        <div class="row">
+
+            @if (DisplayButtons)
+            {
+                <div class="col">
+                    <button class="btn btn-danger" @onclick="SwitchGame">ChangeGame</button>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    if (Game != null)
+    {
+        <tr>
+            <td>@Game.Name</td>
+            <td>@Game.Genre</td>
+            <td>@Game.ReleaseDate.ToString("dd.MM.yyyy")</td>
+            <td>
+                @if (DisplayButtons)
+                {
+                    <button class="btn btn-danger" @onclick="(()=>DeleteGame.InvokeAsync(Game))">Delete</button>
+                }
+            </td>
+        </tr>
+    }
+    else
+    {
+        <img src="https://i.pinimg.com/originals/b2/d4/b2/b2d4b2c0f0ff6c95b0d6021a430beda4.gif" height="200" />
+    }
+}
+@code {
+    [Parameter]
+    public Game Game { get; set; }
+
+    [Parameter]
+    public bool IsTable { get; set; }
+
+    [Parameter]
+    public bool DisplayButtons { get; set; } = false;
+
+    [Parameter]
+    public EventCallback<Game> DeleteGame { get; set; }
+
+    [Parameter]
+    public EventCallback SwitchGame { get; set; }
+
+    string message;
+
+    //void Delete()
+    //{
+    //    //delete logic
+    //    message = $"Game {Game.Name} is deleted";
+    //}
+
+
+}

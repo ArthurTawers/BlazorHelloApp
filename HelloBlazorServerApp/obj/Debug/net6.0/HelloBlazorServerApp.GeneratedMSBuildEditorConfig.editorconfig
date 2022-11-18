@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HelloBlazorServerApp
+build_property.RootNamespace = HelloBlazorServerApp
+build_property.ProjectDir = C:\Users\a.teplov\Desktop\scripts\HelloBlazorServerApp\HelloBlazorServerApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\a.teplov\Desktop\scripts\HelloBlazorServerApp\HelloBlazorServerApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Pages/Messanger.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FuZ2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Shared/GameListTable.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdhbWVMaXN0VGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Shared/GenericList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdlbmVyaWNMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Shared/GetMessege.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdldE1lc3NlZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Shared/IndividualGame.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEluZGl2aWR1YWxHYW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Shared/ShowMessages.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3dNZXNzYWdlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-p6jy588qi3
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-amdo3nqc9z
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.teplov/Desktop/scripts/HelloBlazorServerApp/HelloBlazorServerApp/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

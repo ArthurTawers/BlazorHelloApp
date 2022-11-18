@@ -1,0 +1,33 @@
+﻿@using Pages
+
+@if (MessangerModel != null && MessangerModel.Messanges.Count > 0)
+{
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead class="tgead-light">
+                <tr>
+                    <th>message</th>
+                    <th>Date messaging</th>
+                </tr>
+                @foreach(var item in MessangerModel.Messanges)
+                {
+                    <tr>
+                        <th>@item.Item1</th>
+                        <th class="text-opacity-50">@item.Item2</th>
+                    </tr>
+                }
+            </thead>
+        </table>
+    </div>
+}
+else
+{
+    <div class="text-danger">
+        <tr>No items in array!</tr>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public MessangerViewModel MessangerModel { get; set; }
+}

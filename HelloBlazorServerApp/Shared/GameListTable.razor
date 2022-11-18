@@ -1,0 +1,39 @@
+﻿@using HelloBlazorServerApp.Pages
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead class="tgead-light">
+            <tr>
+                <th>Name</th>
+                <th>Ganre</th>
+                <th>release date</th>
+                <th>
+                    <input type="checkbox" @bind="displayButtons"/>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <GenericList ListOfItems="Games">
+                <ItemTemplate Context="game">
+                    <IndividualGame Game="game" IsTable="true" DisplayButtons="displayButtons" DeleteGame="DeleteTheGame">
+                    </IndividualGame>
+                </ItemTemplate>
+
+            </GenericList>
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+    [Parameter]
+    public List<Game> Games { get; set; }
+
+    bool displayButtons { get; set; } = false;
+
+    void DeleteTheGame(Game game)
+    {
+        Games.Remove(game);
+    }
+    
+
+}
